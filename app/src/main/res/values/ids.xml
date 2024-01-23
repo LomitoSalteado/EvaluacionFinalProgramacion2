@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btnAgregarCuenta" type="id" />
+    <item name="medidorTextView" type="id" />
+    <item name="RecyclerView" type="id" />
+</resources>

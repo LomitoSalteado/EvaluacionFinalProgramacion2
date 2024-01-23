@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="142dp"
+        android:layout_height="29dp"
+        android:text="@string/n_mero_de_medidor" />
+
+    <EditText
+        android:id="@+id/etMedidor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/app_name"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:layout_width="64dp"
+        android:layout_height="33dp"
+        android:text="@string/fecha" />
+
+    <EditText
+        android:id="@+id/etFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ir_a_listaactivity"
+        android:inputType="date"
+        android:minHeight="48dp"
+        android:rotation="0"
+        android:rotationX="0" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/medidor_de" />
+
+    <RadioGroup
+        android:id="@+id/rdTipoGasto"
+        android:layout_width="match_parent"
+        android:layout_height="244dp">
+
+        <RadioButton
+            android:id="@+id/btnAgua"
+            android:layout_width="84dp"
+            android:layout_height="64dp"
+            android:text="@string/agua" />
+
+        <RadioButton
+            android:id="@+id/btnLuz"
+            android:layout_width="84dp"
+            android:layout_height="81dp"
+            android:text="@string/luz" />
+
+        <RadioButton
+            android:id="@+id/btnGas"
+            android:layout_width="84dp"
+            android:layout_height="75dp"
+            android:text="@string/gas" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnRegistrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/registrar_medici_n" />
+</LinearLayout>
